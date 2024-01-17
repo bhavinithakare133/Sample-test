@@ -1,0 +1,326 @@
+* {
+    box-sizing: border-box;
+  }
+header{
+    background-color: rgba(22,40,53,1)		;
+    top: 0;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+
+}
+  nav {
+    cursor: pointer;
+    /* display:flex;
+    align-items: center;
+    flex-direction: row; */
+  }
+/* .dropnew{
+    background-color: black;
+    color:#fff;
+    border: 1px solid rgba(255,255,255,1);
+} */
+.onelin{
+    display:flex;
+    align-items: center;
+    color:#fff;
+
+}
+.dropneww{
+    display:flex;
+    align-items: center;
+    color:#fff;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius:2px;
+    margin: 0 30px;
+}
+.imgbor{
+    margin: 0 10px;
+}
+#dropdownMenu2{
+    color:#fff;
+    padding: 0 20px;
+    border-radius:2px;
+    font-size: 14px;
+}
+.detailtitle{
+     color:#000;
+    background-color:#FFFF8A;
+    border-radius:25px;
+    padding:3px 80px;
+}
+
+/* side nav */
+.sidenav {
+    height:750px;
+    width: 57px;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    position: sticky;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 1px solid rgba(178,178,178,0.5);}
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  /* side nav */
+.rightside-main-body{
+  margin-left:57px;
+  margin-top:41px;
+}
+.navigation{
+    height:57px;
+    align-items: center;
+   color:#000;
+   background-color: #edf1f4;
+   border-bottom: 1px solid #d5d5d5
+}
+.navigation a{
+    color:#000;
+    text-decoration :none;
+}
+.canite{
+    margin-right: 10px;
+    padding: 0 20px;
+}
+.savig{
+    padding: 0 20px;
+
+}
+
+/* belowrightportion-start */
+.itemset{
+   background-color: #edf1f4;
+}
+.mainbelow-portion{
+    background-color: #edf1f4;
+    height: 100%;
+    padding: 20px 37px;
+}
+.boxes{
+    border:1px solid rgba(0,0,0,0.05);
+    background-color: #fff;
+}
+.sect{
+    border:1px solid rgba(0,0,0,0.05);
+    text-align: center;
+    padding: 10px;
+    color:rgba(71,193,191,1);
+    font-size:25px;
+
+}
+.sect,.sect1,.idname{
+    height:100px;
+}
+.sect1{
+    border:1px solid rgba(0,0,0,0.05);
+    padding: 10px;
+    color:rgba(71,193,191,1);
+    font-size:25px;
+    background-color: #fff;
+}
+.titdoc{
+    font-size: 14px;
+    color:rgba(0,0,0,0.54);
+    font-family: Roboto-Medium;
+}
+.itemcolo{
+    color:rgba(0,0,0,0.75);
+    font-size:14px;
+    border:1px solid  #fff;
+    max-width: 400px;
+}
+/* colorsection */
+.red{
+    background-color:red;
+    height:14px !important;
+    width:100px !important;
+}
+.orange{
+    background-color:orange;
+    height:14px;
+    width:100px;
+}
+.lightgreen{
+    background-color:lightgreen;
+    height:14px;
+    width:100px;
+}
+.darkgreen{
+    background-color:darkgreen;
+    height:14px;
+    width:100px;
+}
+
+.itemcolo1{
+    font-size:13px;
+    color:#000;
+    align-items: center;
+    display: flex;
+    margin-top:10px;
+}
+.redbox{
+    background-color: red;
+    height: 14px !important;
+    width: 14px !important;
+    margin:0 10px;
+}
+.orangebox{
+    background-color: orange;
+    height: 14px !important;
+    width: 14px !important;
+    margin:0 10px;
+
+}
+.lightgreenbox{
+    background-color: lightgreen;
+    height: 14px !important;
+    width: 14px !important;
+    margin:0 10px;
+
+}
+.darkgreenbox{
+    background-color: darkgreen;
+    height: 14px !important;
+    width: 14px !important;
+    margin:0 10px;
+
+}
+/* thirdssection height mentioned together for 3 colums above */
+.idname{
+    font-size: 14px;
+    border:1px solid rgba(0,0,0,0.05);
+    background-color: #fff;
+    color:rgba(0,0,0,0.54);
+    padding:5px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.nav1 {
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  width:100%;
+  background-color: #fff;
+  padding: 0 20px;
+  font-size: 14px;
+  height: 48px;
+  margin-top:16px;
+  color:rgba(0,0,0,0.54);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+}
+
+.nav-item {
+  color: rgba(0,0,0,0.87);
+  padding: 12px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 0 6px;
+  z-index: 1;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+.nav-item:before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #dfe2ea;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.nav-item:not(.is-active):hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+
+.nav-item:not(.is-active):hover {
+  color: #333;
+}
+
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  transition: 0.4s;
+  height: 5px;
+  z-index: 1;
+}
+
+/* Thirdsection  */
+.thirdsecii{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+.titleee{
+    font-size: 14px;
+    color:rgba(0,0,0,0.75);
+     margin-top:24px;  
+        width: 800px;
+     margin: auto
+
+}
+.boxmee1{
+    border:1px solid rgba(0,0,0,0.05);
+    height:327px;
+    padding: 16px !important;
+    width: 800px !important;
+    margin: auto !important;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+}
+.boxmee{
+    border:1px solid rgba(0,0,0,0.05);
+    height:92px;
+    padding: 16px !important;
+    width: 800px !important;
+    margin: auto !important;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+
+}
+#floatingTextarea{
+    background-color: #edf1f4;
+}
+#floatingTextarea:hover{
+
+    border:none !important;
+}
+.form-floating{
+    border-bottom:1px solid #000;
+    background-color: #edf1f4 !important;
+}
+.form-select{
+    background-color: #edf1f4 !important;
+
+}
+.form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after{
+    background-color: #edf1f4 !important;
+}
+.form-select{
+    --bs-form-select-bg-img:none !important;
+}
+.fontcck{
+    font-size:14px;
+    height: 35px;
+}
